@@ -6,7 +6,22 @@ name="Goku"
 age=42
 height=5.8
 
+echo "my name is $name and my age is $age"
 
 
-echo "my name is $name, my age is $age and height is $height"
+#Var to store the output of a command
+
+HOSTNAME=$(hostname)
+echo "Name of this machine is $HOSTNAME" 
+
+
+
+#Constant Variable
+
+readonly COLLEGE="Metro"
+
+echo "My college name is $COLLEGE"
+
+COLLEGE="TESt"
+
 
