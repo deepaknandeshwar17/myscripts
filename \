@@ -14,14 +14,7 @@ echo "third element in the array is ${myArray[2]}"
 echo "Length is an array ${#myArray[*]}"
 
 #Slicing in array
-echo "first three elements of the array are: ${myArray[*]:3:2}"
-
-#updating new values in the array
-myArray+=( new 30 40 )
-
-echo "new updated array: ${myArray[*]}"
-
-
+echo "first three elements of the array are: ${myArray[*]:3:*}"
 
 
 
